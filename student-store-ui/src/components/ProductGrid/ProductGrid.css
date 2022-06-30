@@ -1,0 +1,141 @@
+.product-grid {
+    width: 100%;
+    max-width: 100vw;
+    margin: 40px 0;
+}
+
+.product-grid .content {
+    max-width: var(--content-width);
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    padding: 0;
+    font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    color: var(--font-dark);
+}
+
+.product-grid .content .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 100px;
+}
+.product-grid .categories .active-btn{
+    margin-left: 7%;
+    margin-top: 1%;
+    justify-content: center;
+}
+.button{
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: inline-block; 
+}
+
+
+#all:focus{
+    text-decoration: underline;
+    text-decoration-color: #46a283;
+    text-underline-offset: 15px;
+}
+#all{
+    font-size: 20px;
+    background-color: #f7f7f7;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    margin-right: 3%;
+}
+#clothing:focus{
+    text-decoration: underline;
+    text-decoration-color: green;
+    text-underline-offset: 15px;
+}
+#clothing{
+    font-size: 20px;
+    background-color: #f7f7f7;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    margin-right: 3%;
+}
+#food:focus{
+    text-decoration: underline;
+    text-decoration-color: green;
+    text-underline-offset: 15px;
+}
+#food{
+    font-size: 20px;
+    background-color: #f7f7f7;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    margin-right: 3%;
+}
+#acc:focus{
+    text-decoration: underline;
+    text-decoration-color: green;
+    text-underline-offset: 15px;
+}
+#acc{
+    font-size: 20px;
+    background-color: #f7f7f7;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    margin-right: 3%;
+}
+#tech:focus{
+    text-decoration: underline;
+    text-decoration-color: green;
+    text-underline-offset: 15px;
+}
+#tech{
+    font-size: 20px;
+    background-color: #f7f7f7;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    margin-right: 3%;
+}
+
+.product-grid .productCard {
+    height: 350px;
+    width: 250px;
+    background: var(--pure-white);
+    display: flex;
+    flex-direction: column;
+    border: solid 1px var(--border-color);
+}
+
+.product-grid .product-card .media {
+    height: 250px;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+}
+.search-input{
+    margin-left: 6%;
+    padding: 10px 30px 0px 10px;
+}
+.search-input .textbox{
+    padding: 10px 300px 10px 5px;
+    border-radius: 10px;
+}

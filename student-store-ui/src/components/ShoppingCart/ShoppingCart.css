@@ -1,0 +1,29 @@
+.material-icon {
+   position: relative;
+   padding-left: 350px;
+}
+
+.no-items {
+   width: 400px;
+   margin-left:64px;
+}
+table{
+   margin: 10%;
+   width: 400px;
+   font-size: 20px;
+   color: white;
+   margin-left: 7%;
+   border: solid;
+   border-style: white;
+   border-radius: 10px;
+}
+.shopping-cart{
+   width: 400px;
+}
+#product-info{
+   margin: 10%;
+   padding-top: 50px;
+  font-size: 16px;
+  color: black;
+  background-color: white;
+}

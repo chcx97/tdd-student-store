@@ -1,0 +1,18 @@
+.checkout-form{
+    color: white;
+}
+.checkout-form-input{
+    padding: 5px 50px 10px 100px;
+    border-radius: 5px;
+}
+
+.receipt{
+    color:white;
+    width: 400px;
+}
+.showing{
+    font-size: 16px;
+}
+.li{
+    font-size: 16px;
+}
