@@ -33,6 +33,7 @@ export function Receipt(props){
     var totalPrice = 0;
     return(
         <div className="receipt">
+            <h1 className="success">Success! 😊</h1>
             <h1>Checkout Info</h1>
             <body>
                 <p>Receipt</p>
