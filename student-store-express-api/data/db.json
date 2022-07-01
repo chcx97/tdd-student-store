@@ -145,5 +145,1063 @@
       "price": 999.99
     }
   ],
-  "purchases": []
+  "purchases": [
+    {
+      "id": 1,
+      "name": "hello",
+      "email": "hello@gmail.com",
+      "order": [
+        {
+          "itemId": 2,
+          "quantity": 3
+        },
+        {
+          "itemId": 1,
+          "quantity": 3
+        },
+        {
+          "itemId": 3,
+          "quantity": 2
+        }
+      ],
+      "total": 14.626874999999998,
+      "createdAt": "2022-07-01T01:10:11.602Z",
+      "receipt": {
+        "user": {
+          "email": "hello@gmail.com",
+          "name": "hello"
+        },
+        "items": [
+          {
+            "name": "Flamin Hot Cheetos",
+            "quantity": 3,
+            "price": "1.50",
+            "totalPrice": "4.50"
+          },
+          {
+            "name": "Rice Krispies",
+            "quantity": 3,
+            "price": "0.99",
+            "totalPrice": "2.97"
+          },
+          {
+            "name": "Cinnamon Rolls",
+            "quantity": 2,
+            "price": "2.99",
+            "totalPrice": "5.98"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "fsdsdfsd",
+      "email": "sdfdsfds",
+      "order": [],
+      "total": 0,
+      "createdAt": "2022-07-01T01:11:22.543Z",
+      "receipt": {
+        "user": {
+          "email": "sdfdsfds",
+          "name": "fsdsdfsd"
+        },
+        "items": []
+      }
+    },
+    {
+      "id": 3,
+      "name": "fsdsdfd",
+      "email": "fdssdf",
+      "order": [
+        {
+          "itemId": 3,
+          "quantity": 2
+        },
+        {
+          "itemId": 4,
+          "quantity": 2
+        }
+      ],
+      "total": 13.572000000000001,
+      "createdAt": "2022-07-01T01:11:30.771Z",
+      "receipt": {
+        "user": {
+          "email": "fdssdf",
+          "name": "fsdsdfd"
+        },
+        "items": [
+          {
+            "name": "Cinnamon Rolls",
+            "quantity": 2,
+            "price": "2.99",
+            "totalPrice": "5.98"
+          },
+          {
+            "name": "Coconut Water",
+            "quantity": 2,
+            "price": "3.25",
+            "totalPrice": "6.50"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "hello",
+      "email": "hello@gmail.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 1
+        },
+        {
+          "itemId": 2,
+          "quantity": 1
+        },
+        {
+          "itemId": 3,
+          "quantity": 1
+        },
+        {
+          "itemId": 6,
+          "quantity": 1
+        }
+      ],
+      "total": 27.698625,
+      "createdAt": "2022-07-01T01:12:57.791Z",
+      "receipt": {
+        "user": {
+          "email": "hello@gmail.com",
+          "name": "hello"
+        },
+        "items": [
+          {
+            "name": "Rice Krispies",
+            "quantity": 1,
+            "price": "0.99",
+            "totalPrice": "0.99"
+          },
+          {
+            "name": "Flamin Hot Cheetos",
+            "quantity": 1,
+            "price": "1.50",
+            "totalPrice": "1.50"
+          },
+          {
+            "name": "Cinnamon Rolls",
+            "quantity": 1,
+            "price": "2.99",
+            "totalPrice": "2.99"
+          },
+          {
+            "name": "Bar Code Shirts",
+            "quantity": 1,
+            "price": "19.99",
+            "totalPrice": "19.99"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "hello",
+      "email": "hello@gmail.com",
+      "order": [
+        {
+          "itemId": 2,
+          "quantity": 2
+        },
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 3,
+          "quantity": 2
+        }
+      ],
+      "total": 11.919,
+      "createdAt": "2022-07-01T01:16:22.671Z",
+      "receipt": {
+        "user": {
+          "email": "hello@gmail.com",
+          "name": "hello"
+        },
+        "items": [
+          {
+            "name": "Flamin Hot Cheetos",
+            "quantity": 2,
+            "price": "1.50",
+            "totalPrice": "3.00"
+          },
+          {
+            "name": "Rice Krispies",
+            "quantity": 2,
+            "price": "0.99",
+            "totalPrice": "1.98"
+          },
+          {
+            "name": "Cinnamon Rolls",
+            "quantity": 2,
+            "price": "2.99",
+            "totalPrice": "5.98"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "hello",
+      "email": "hello@gmail.com",
+      "order": [
+        {
+          "itemId": 5,
+          "quantity": 2
+        },
+        {
+          "itemId": 6,
+          "quantity": 2
+        }
+      ],
+      "total": 59.790749999999996,
+      "createdAt": "2022-07-01T01:17:30.834Z",
+      "receipt": {
+        "user": {
+          "email": "hello@gmail.com",
+          "name": "hello"
+        },
+        "items": [
+          {
+            "name": "Fruit Medley",
+            "quantity": 2,
+            "price": "7.50",
+            "totalPrice": "15.00"
+          },
+          {
+            "name": "Bar Code Shirts",
+            "quantity": 2,
+            "price": "19.99",
+            "totalPrice": "39.98"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "name": "hello",
+      "email": "hello@gmail.com",
+      "order": [
+        {
+          "itemId": 2,
+          "quantity": 1
+        },
+        {
+          "itemId": 1,
+          "quantity": 1
+        },
+        {
+          "itemId": 6,
+          "quantity": 1
+        }
+      ],
+      "total": 24.446999999999996,
+      "createdAt": "2022-07-01T01:18:17.259Z",
+      "receipt": {
+        "user": {
+          "email": "hello@gmail.com",
+          "name": "hello"
+        },
+        "items": [
+          {
+            "name": "Flamin Hot Cheetos",
+            "quantity": 1,
+            "price": "1.50",
+            "totalPrice": "1.50"
+          },
+          {
+            "name": "Rice Krispies",
+            "quantity": 1,
+            "price": "0.99",
+            "totalPrice": "0.99"
+          },
+          {
+            "name": "Bar Code Shirts",
+            "quantity": 1,
+            "price": "19.99",
+            "totalPrice": "19.99"
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "hello",
+      "email": "hello@gmail.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 1
+        },
+        {
+          "itemId": 2,
+          "quantity": 1
+        },
+        {
+          "itemId": 3,
+          "quantity": 1
+        }
+      ],
+      "total": 5.9595,
+      "createdAt": "2022-07-01T01:18:56.498Z",
+      "receipt": {
+        "user": {
+          "email": "hello@gmail.com",
+          "name": "hello"
+        },
+        "items": [
+          {
+            "name": "Rice Krispies",
+            "quantity": 1,
+            "price": "0.99",
+            "totalPrice": "0.99"
+          },
+          {
+            "name": "Flamin Hot Cheetos",
+            "quantity": 1,
+            "price": "1.50",
+            "totalPrice": "1.50"
+          },
+          {
+            "name": "Cinnamon Rolls",
+            "quantity": 1,
+            "price": "2.99",
+            "totalPrice": "2.99"
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "name": "christyoo",
+      "email": "christy",
+      "order": [
+        {
+          "itemId": 4,
+          "quantity": 1
+        },
+        {
+          "itemId": 5,
+          "quantity": 1
+        },
+        {
+          "itemId": 6,
+          "quantity": 1
+        }
+      ],
+      "total": 33.42975,
+      "createdAt": "2022-07-01T01:19:45.404Z",
+      "receipt": {
+        "user": {
+          "email": "christy",
+          "name": "christyoo"
+        },
+        "items": [
+          {
+            "name": "Coconut Water",
+            "quantity": 1,
+            "price": "3.25",
+            "totalPrice": "3.25"
+          },
+          {
+            "name": "Fruit Medley",
+            "quantity": 1,
+            "price": "7.50",
+            "totalPrice": "7.50"
+          },
+          {
+            "name": "Bar Code Shirts",
+            "quantity": 1,
+            "price": "19.99",
+            "totalPrice": "19.99"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "name": "christyoo",
+      "email": "christy",
+      "order": [
+        {
+          "itemId": 4,
+          "quantity": 1
+        },
+        {
+          "itemId": 5,
+          "quantity": 1
+        },
+        {
+          "itemId": 6,
+          "quantity": 1
+        }
+      ],
+      "total": 33.42975,
+      "createdAt": "2022-07-01T01:19:52.553Z",
+      "receipt": {
+        "user": {
+          "email": "christy",
+          "name": "christyoo"
+        },
+        "items": [
+          {
+            "name": "Coconut Water",
+            "quantity": 1,
+            "price": "3.25",
+            "totalPrice": "3.25"
+          },
+          {
+            "name": "Fruit Medley",
+            "quantity": 1,
+            "price": "7.50",
+            "totalPrice": "7.50"
+          },
+          {
+            "name": "Bar Code Shirts",
+            "quantity": 1,
+            "price": "19.99",
+            "totalPrice": "19.99"
+          }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "name": "hello",
+      "email": "hello@gmail.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 1
+        },
+        {
+          "itemId": 2,
+          "quantity": 1
+        },
+        {
+          "itemId": 3,
+          "quantity": 1
+        }
+      ],
+      "total": 5.9595,
+      "createdAt": "2022-07-01T01:21:25.430Z",
+      "receipt": {
+        "user": {
+          "email": "hello@gmail.com",
+          "name": "hello"
+        },
+        "items": [
+          {
+            "name": "Rice Krispies",
+            "quantity": 1,
+            "price": "0.99",
+            "totalPrice": "0.99"
+          },
+          {
+            "name": "Flamin Hot Cheetos",
+            "quantity": 1,
+            "price": "1.50",
+            "totalPrice": "1.50"
+          },
+          {
+            "name": "Cinnamon Rolls",
+            "quantity": 1,
+            "price": "2.99",
+            "totalPrice": "2.99"
+          }
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "name": "hello",
+      "email": "hello@gmail.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 1
+        },
+        {
+          "itemId": 2,
+          "quantity": 1
+        },
+        {
+          "itemId": 3,
+          "quantity": 1
+        }
+      ],
+      "total": 5.9595,
+      "createdAt": "2022-07-01T01:22:20.848Z",
+      "receipt": {
+        "user": {
+          "email": "hello@gmail.com",
+          "name": "hello"
+        },
+        "items": [
+          {
+            "name": "Rice Krispies",
+            "quantity": 1,
+            "price": "0.99",
+            "totalPrice": "0.99"
+          },
+          {
+            "name": "Flamin Hot Cheetos",
+            "quantity": 1,
+            "price": "1.50",
+            "totalPrice": "1.50"
+          },
+          {
+            "name": "Cinnamon Rolls",
+            "quantity": 1,
+            "price": "2.99",
+            "totalPrice": "2.99"
+          }
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "name": "dasads",
+      "email": "dassad",
+      "order": [
+        {
+          "itemId": 2,
+          "quantity": 1
+        },
+        {
+          "itemId": 1,
+          "quantity": 1
+        },
+        {
+          "itemId": 3,
+          "quantity": 1
+        }
+      ],
+      "total": 5.9595,
+      "createdAt": "2022-07-01T01:22:32.828Z",
+      "receipt": {
+        "user": {
+          "email": "dassad",
+          "name": "dasads"
+        },
+        "items": [
+          {
+            "name": "Flamin Hot Cheetos",
+            "quantity": 1,
+            "price": "1.50",
+            "totalPrice": "1.50"
+          },
+          {
+            "name": "Rice Krispies",
+            "quantity": 1,
+            "price": "0.99",
+            "totalPrice": "0.99"
+          },
+          {
+            "name": "Cinnamon Rolls",
+            "quantity": 1,
+            "price": "2.99",
+            "totalPrice": "2.99"
+          }
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "name": "dasads",
+      "email": "dad",
+      "order": [
+        {
+          "itemId": 2,
+          "quantity": 2
+        },
+        {
+          "itemId": 1,
+          "quantity": 2
+        }
+      ],
+      "total": 5.41575,
+      "createdAt": "2022-07-01T01:24:06.633Z",
+      "receipt": {
+        "user": {
+          "email": "dad",
+          "name": "dasads"
+        },
+        "items": [
+          {
+            "name": "Flamin Hot Cheetos",
+            "quantity": 2,
+            "price": "1.50",
+            "totalPrice": "3.00"
+          },
+          {
+            "name": "Rice Krispies",
+            "quantity": 2,
+            "price": "0.99",
+            "totalPrice": "1.98"
+          }
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "name": "Christy",
+      "email": "xiongchristy@gmail.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 2,
+          "quantity": 2
+        },
+        {
+          "itemId": 3,
+          "quantity": 1
+        }
+      ],
+      "total": 8.667375,
+      "createdAt": "2022-07-01T01:25:50.957Z",
+      "receipt": {
+        "user": {
+          "email": "xiongchristy@gmail.com",
+          "name": "Christy"
+        },
+        "items": [
+          {
+            "name": "Rice Krispies",
+            "quantity": 2,
+            "price": "0.99",
+            "totalPrice": "1.98"
+          },
+          {
+            "name": "Flamin Hot Cheetos",
+            "quantity": 2,
+            "price": "1.50",
+            "totalPrice": "3.00"
+          },
+          {
+            "name": "Cinnamon Rolls",
+            "quantity": 1,
+            "price": "2.99",
+            "totalPrice": "2.99"
+          }
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "name": "sdcsc",
+      "email": "scsd",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 2,
+          "quantity": 2
+        }
+      ],
+      "total": 5.41575,
+      "createdAt": "2022-07-01T01:29:13.199Z",
+      "receipt": {
+        "user": {
+          "email": "scsd",
+          "name": "sdcsc"
+        },
+        "items": [
+          {
+            "name": "Rice Krispies",
+            "quantity": 2,
+            "price": "0.99",
+            "totalPrice": "1.98"
+          },
+          {
+            "name": "Flamin Hot Cheetos",
+            "quantity": 2,
+            "price": "1.50",
+            "totalPrice": "3.00"
+          }
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "name": "dasasdd",
+      "email": "daadsasd",
+      "order": [
+        {
+          "itemId": 3,
+          "quantity": 6
+        }
+      ],
+      "total": 19.50975,
+      "createdAt": "2022-07-01T01:29:54.508Z",
+      "receipt": {
+        "user": {
+          "email": "daadsasd",
+          "name": "dasasdd"
+        },
+        "items": [
+          {
+            "name": "Cinnamon Rolls",
+            "quantity": 6,
+            "price": "2.99",
+            "totalPrice": "17.94"
+          }
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "name": "cszzc",
+      "email": "czszc",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 5
+        }
+      ],
+      "total": 5.383125,
+      "createdAt": "2022-07-01T01:30:41.845Z",
+      "receipt": {
+        "user": {
+          "email": "czszc",
+          "name": "cszzc"
+        },
+        "items": [
+          {
+            "name": "Rice Krispies",
+            "quantity": 5,
+            "price": "0.99",
+            "totalPrice": "4.95"
+          }
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "name": "dasasd",
+      "email": "adas",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 2,
+          "quantity": 2
+        },
+        {
+          "itemId": 3,
+          "quantity": 2
+        }
+      ],
+      "total": 11.919,
+      "createdAt": "2022-07-01T01:36:13.540Z",
+      "receipt": {
+        "user": {
+          "email": "adas",
+          "name": "dasasd"
+        },
+        "items": [
+          {
+            "name": "Rice Krispies",
+            "quantity": 2,
+            "price": "0.99",
+            "totalPrice": "1.98"
+          },
+          {
+            "name": "Flamin Hot Cheetos",
+            "quantity": 2,
+            "price": "1.50",
+            "totalPrice": "3.00"
+          },
+          {
+            "name": "Cinnamon Rolls",
+            "quantity": 2,
+            "price": "2.99",
+            "totalPrice": "5.98"
+          }
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "name": "sdadas",
+      "email": "dasd",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 4
+        }
+      ],
+      "total": 4.3065,
+      "createdAt": "2022-07-01T01:36:59.391Z",
+      "receipt": {
+        "user": {
+          "email": "dasd",
+          "name": "sdadas"
+        },
+        "items": [
+          {
+            "name": "Rice Krispies",
+            "quantity": 4,
+            "price": "0.99",
+            "totalPrice": "3.96"
+          }
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "name": "asdasds",
+      "email": "asdsa",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 5
+        }
+      ],
+      "total": 5.383125,
+      "createdAt": "2022-07-01T01:37:37.919Z",
+      "receipt": {
+        "user": {
+          "email": "asdsa",
+          "name": "asdasds"
+        },
+        "items": [
+          {
+            "name": "Rice Krispies",
+            "quantity": 5,
+            "price": "0.99",
+            "totalPrice": "4.95"
+          }
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "name": "dasdsa",
+      "email": "dsasa",
+      "order": [
+        {
+          "itemId": 3,
+          "quantity": 2
+        }
+      ],
+      "total": 6.50325,
+      "createdAt": "2022-07-01T01:40:10.891Z",
+      "receipt": {
+        "user": {
+          "email": "dsasa",
+          "name": "dasdsa"
+        },
+        "items": [
+          {
+            "name": "Cinnamon Rolls",
+            "quantity": 2,
+            "price": "2.99",
+            "totalPrice": "5.98"
+          }
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "name": "fsddsfs",
+      "email": "fdsdsf",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 3
+        },
+        {
+          "itemId": 2,
+          "quantity": 2
+        }
+      ],
+      "total": 6.492375,
+      "createdAt": "2022-07-01T01:43:14.566Z",
+      "receipt": {
+        "user": {
+          "email": "fdsdsf",
+          "name": "fsddsfs"
+        },
+        "items": [
+          {
+            "name": "Rice Krispies",
+            "quantity": 3,
+            "price": "0.99",
+            "totalPrice": "2.97"
+          },
+          {
+            "name": "Flamin Hot Cheetos",
+            "quantity": 2,
+            "price": "1.50",
+            "totalPrice": "3.00"
+          }
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "name": "asdasd",
+      "email": "asdaads",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 4
+        }
+      ],
+      "total": 4.3065,
+      "createdAt": "2022-07-01T01:51:36.442Z",
+      "receipt": {
+        "user": {
+          "email": "asdaads",
+          "name": "asdasd"
+        },
+        "items": [
+          {
+            "name": "Rice Krispies",
+            "quantity": 4,
+            "price": "0.99",
+            "totalPrice": "3.96"
+          }
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "name": "dasadsasd",
+      "email": "sadasdas",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 3
+        },
+        {
+          "itemId": 2,
+          "quantity": 2
+        }
+      ],
+      "total": 6.492375,
+      "createdAt": "2022-07-01T01:53:02.183Z",
+      "receipt": {
+        "user": {
+          "email": "sadasdas",
+          "name": "dasadsasd"
+        },
+        "items": [
+          {
+            "name": "Rice Krispies",
+            "quantity": 3,
+            "price": "0.99",
+            "totalPrice": "2.97"
+          },
+          {
+            "name": "Flamin Hot Cheetos",
+            "quantity": 2,
+            "price": "1.50",
+            "totalPrice": "3.00"
+          }
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "name": "fdsadfs",
+      "email": "dsadfsd",
+      "order": [
+        {
+          "itemId": 6,
+          "quantity": 9
+        }
+      ],
+      "total": 195.65212499999998,
+      "createdAt": "2022-07-01T01:57:11.563Z",
+      "receipt": {
+        "user": {
+          "email": "dsadfsd",
+          "name": "fdsadfs"
+        },
+        "items": [
+          {
+            "name": "Bar Code Shirts",
+            "quantity": 9,
+            "price": "19.99",
+            "totalPrice": "179.91"
+          }
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "name": "hello",
+      "email": "hello@gmail.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 1
+        },
+        {
+          "itemId": 2,
+          "quantity": 1
+        },
+        {
+          "itemId": 3,
+          "quantity": 1
+        },
+        {
+          "itemId": 5,
+          "quantity": 1
+        }
+      ],
+      "total": 14.11575,
+      "createdAt": "2022-07-01T02:00:34.697Z",
+      "receipt": {
+        "user": {
+          "email": "hello@gmail.com",
+          "name": "hello"
+        },
+        "items": [
+          {
+            "name": "Rice Krispies",
+            "quantity": 1,
+            "price": "0.99",
+            "totalPrice": "0.99"
+          },
+          {
+            "name": "Flamin Hot Cheetos",
+            "quantity": 1,
+            "price": "1.50",
+            "totalPrice": "1.50"
+          },
+          {
+            "name": "Cinnamon Rolls",
+            "quantity": 1,
+            "price": "2.99",
+            "totalPrice": "2.99"
+          },
+          {
+            "name": "Fruit Medley",
+            "quantity": 1,
+            "price": "7.50",
+            "totalPrice": "7.50"
+          }
+        ]
+      }
+    }
+  ]
 }

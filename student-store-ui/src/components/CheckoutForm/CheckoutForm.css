@@ -1,15 +1,24 @@
 .checkout-form{
     color: white;
+    
 }
 .checkout-form-input{
     padding: 5px 50px 10px 100px;
     border-radius: 5px;
+    margin-left: 80px;
+}
+.labels{
+    margin-left: 80px;
+}
+.submit-btn{
+    margin-left: 80px;
+}
+.success{
+    width: 400px;
+    color: white;
+    margin-right: 50px;
 }
 
-.receipt{
-    color:white;
-    width: 400px;
-}
 .showing{
     font-size: 16px;
 }

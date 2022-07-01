@@ -28,9 +28,11 @@ router.post("/", async(req, res, next) => {
     try {
         const shoppingCart = req.body.shoppingCart
         const user = req.body.user
-        if(!shoppingCart && !user){
-            res.status(400).send(error.details[0].message);
-        }
+        const purchaseOrder = await Store.purchaseOrder(shoppingCart,user)
+        console.log(purchaseOrder);
+        res.status(200).json({purchaseOrder})
+        
+
     } catch (error) {
         next(error)
     }

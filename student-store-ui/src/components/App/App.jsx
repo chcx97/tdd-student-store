@@ -19,6 +19,7 @@ export default function App() {
   //   quantity: 0
   // };
   //state variables
+
   const [products, setProducts] = useState([]);
   const [isFetching, setIsFetching] = useState(false);
   const [error, setError] = useState("");
@@ -32,10 +33,10 @@ export default function App() {
     const fetchProducts = async() => {
       setIsFetching(true)
       try {
-        const getProducts = await axios.get("https://codepath-store-api.herokuapp.com/store");
-        console.log(getProducts.data.products.length);
-        if (getProducts.data.products.length > 0){
-          setProducts(getProducts.data.products);
+        const getProducts = await axios.get("http://localhost:3001/store");
+        console.log(13,getProducts.data);
+        if (getProducts.data.length > 0){
+          setProducts(getProducts.data);
         } else{
           setError("There are no products in the response");
         }
@@ -50,7 +51,6 @@ export default function App() {
     }
     fetchProducts()
   },[])
-
 
   //console.log(getProducts);
 
@@ -90,22 +90,24 @@ export default function App() {
   const handleOnCheckoutFormChange = (name, value) => {
     setCheckoutForm((prevCheckOut) => ({...prevCheckOut, [name] : value}));
   }
-  const handleOnSubmitCheckoutForm = () => {
+  const handleOnSubmitCheckoutForm = async() => {
+    setCheckedOut(true)
+    console.log(354, checkoutForm)
     axios.post("http://localhost:3001/store",{
-      user:{name: checkoutForm.name, email: checkoutForm.value}, shoppingCart
+      user: checkoutForm, shoppingCart: shoppingCart
     })
     .then(function(response){
       console.log(response);
       setShoppingCart([]);
       setCheckoutForm({ email: "", name: "" })
-      setCheckedOut(true);
-      return(<CheckoutForm checkedOut = {checkedOut} products = {products} shoppingCart = {shoppingCart}/>)
+      return(<CheckoutForm setCheckedOut={setCheckedOut} checkedOut={checkedOut} />)
     })
     .catch(function(error){
       console.log(error);
       setCheckedOut(false);
       return(<p className="error">Oh no! There was an error. 😞</p>)
     })
+    
   }
   //useEffect to fetch api data
 
